@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64B66DDC238C68BA00625383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66DDB238C68BA00625383 /* AppDelegate.swift */; };
+		64B66DDE238C68BA00625383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66DDD238C68BA00625383 /* SceneDelegate.swift */; };
+		64B66DE1238C68BA00625383 /* MettOMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64B66DDF238C68BA00625383 /* MettOMeter.xcdatamodeld */; };
+		64B66DE3238C68BA00625383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66DE2238C68BA00625383 /* ContentView.swift */; };
+		64B66DE5238C68C000625383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B66DE4238C68C000625383 /* Assets.xcassets */; };
+		64B66DE8238C68C000625383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B66DE7238C68C000625383 /* Preview Assets.xcassets */; };
+		64B66DEB238C68C000625383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B66DE9238C68C000625383 /* LaunchScreen.storyboard */; };
+		64B66DF6238C68C000625383 /* MettOMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66DF5238C68C000625383 /* MettOMeterTests.swift */; };
+		64B66E01238C68C000625383 /* MettOMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66E00238C68C000625383 /* MettOMeterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64B66DF2238C68C000625383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B66DD0238C68BA00625383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B66DD7238C68BA00625383;
+			remoteInfo = MettOMeter;
+		};
+		64B66DFD238C68C000625383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B66DD0238C68BA00625383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B66DD7238C68BA00625383;
+			remoteInfo = MettOMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64B66DD8238C68BA00625383 /* MettOMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MettOMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B66DDB238C68BA00625383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64B66DDD238C68BA00625383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64B66DE0238C68BA00625383 /* MettOMeter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MettOMeter.xcdatamodel; sourceTree = "<group>"; };
+		64B66DE2238C68BA00625383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64B66DE4238C68C000625383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64B66DE7238C68C000625383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64B66DEA238C68C000625383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64B66DEC238C68C000625383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B66DF1238C68C000625383 /* MettOMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MettOMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B66DF5238C68C000625383 /* MettOMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MettOMeterTests.swift; sourceTree = "<group>"; };
+		64B66DF7238C68C000625383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B66DFC238C68C000625383 /* MettOMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MettOMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B66E00238C68C000625383 /* MettOMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MettOMeterUITests.swift; sourceTree = "<group>"; };
+		64B66E02238C68C000625383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64B66DD5238C68BA00625383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B66DEE238C68C000625383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B66DF9238C68C000625383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64B66DCF238C68BA00625383 = {
+			isa = PBXGroup;
+			children = (
+				64B66DDA238C68BA00625383 /* MettOMeter */,
+				64B66DF4238C68C000625383 /* MettOMeterTests */,
+				64B66DFF238C68C000625383 /* MettOMeterUITests */,
+				64B66DD9238C68BA00625383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64B66DD9238C68BA00625383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64B66DD8238C68BA00625383 /* MettOMeter.app */,
+				64B66DF1238C68C000625383 /* MettOMeterTests.xctest */,
+				64B66DFC238C68C000625383 /* MettOMeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64B66DDA238C68BA00625383 /* MettOMeter */ = {
+			isa = PBXGroup;
+			children = (
+				64B66DDB238C68BA00625383 /* AppDelegate.swift */,
+				64B66DDD238C68BA00625383 /* SceneDelegate.swift */,
+				64B66DE2238C68BA00625383 /* ContentView.swift */,
+				64B66DE4238C68C000625383 /* Assets.xcassets */,
+				64B66DE9238C68C000625383 /* LaunchScreen.storyboard */,
+				64B66DEC238C68C000625383 /* Info.plist */,
+				64B66DDF238C68BA00625383 /* MettOMeter.xcdatamodeld */,
+				64B66DE6238C68C000625383 /* Preview Content */,
+			);
+			path = MettOMeter;
+			sourceTree = "<group>";
+		};
+		64B66DE6238C68C000625383 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64B66DE7238C68C000625383 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64B66DF4238C68C000625383 /* MettOMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				64B66DF5238C68C000625383 /* MettOMeterTests.swift */,
+				64B66DF7238C68C000625383 /* Info.plist */,
+			);
+			path = MettOMeterTests;
+			sourceTree = "<group>";
+		};
+		64B66DFF238C68C000625383 /* MettOMeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64B66E00238C68C000625383 /* MettOMeterUITests.swift */,
+				64B66E02238C68C000625383 /* Info.plist */,
+			);
+			path = MettOMeterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64B66DD7238C68BA00625383 /* MettOMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B66E05238C68C000625383 /* Build configuration list for PBXNativeTarget "MettOMeter" */;
+			buildPhases = (
+				64B66DD4238C68BA00625383 /* Sources */,
+				64B66DD5238C68BA00625383 /* Frameworks */,
+				64B66DD6238C68BA00625383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MettOMeter;
+			productName = MettOMeter;
+			productReference = 64B66DD8238C68BA00625383 /* MettOMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64B66DF0238C68C000625383 /* MettOMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B66E08238C68C000625383 /* Build configuration list for PBXNativeTarget "MettOMeterTests" */;
+			buildPhases = (
+				64B66DED238C68C000625383 /* Sources */,
+				64B66DEE238C68C000625383 /* Frameworks */,
+				64B66DEF238C68C000625383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B66DF3238C68C000625383 /* PBXTargetDependency */,
+			);
+			name = MettOMeterTests;
+			productName = MettOMeterTests;
+			productReference = 64B66DF1238C68C000625383 /* MettOMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64B66DFB238C68C000625383 /* MettOMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B66E0B238C68C000625383 /* Build configuration list for PBXNativeTarget "MettOMeterUITests" */;
+			buildPhases = (
+				64B66DF8238C68C000625383 /* Sources */,
+				64B66DF9238C68C000625383 /* Frameworks */,
+				64B66DFA238C68C000625383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B66DFE238C68C000625383 /* PBXTargetDependency */,
+			);
+			name = MettOMeterUITests;
+			productName = MettOMeterUITests;
+			productReference = 64B66DFC238C68C000625383 /* MettOMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64B66DD0238C68BA00625383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Raphael Guntersweiler";
+				TargetAttributes = {
+					64B66DD7238C68BA00625383 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					64B66DF0238C68C000625383 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 64B66DD7238C68BA00625383;
+					};
+					64B66DFB238C68C000625383 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 64B66DD7238C68BA00625383;
+					};
+				};
+			};
+			buildConfigurationList = 64B66DD3238C68BA00625383 /* Build configuration list for PBXProject "MettOMeter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64B66DCF238C68BA00625383;
+			productRefGroup = 64B66DD9238C68BA00625383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64B66DD7238C68BA00625383 /* MettOMeter */,
+				64B66DF0238C68C000625383 /* MettOMeterTests */,
+				64B66DFB238C68C000625383 /* MettOMeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64B66DD6238C68BA00625383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B66DEB238C68C000625383 /* LaunchScreen.storyboard in Resources */,
+				64B66DE8238C68C000625383 /* Preview Assets.xcassets in Resources */,
+				64B66DE5238C68C000625383 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B66DEF238C68C000625383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B66DFA238C68C000625383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64B66DD4238C68BA00625383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B66DE1238C68BA00625383 /* MettOMeter.xcdatamodeld in Sources */,
+				64B66DDC238C68BA00625383 /* AppDelegate.swift in Sources */,
+				64B66DE3238C68BA00625383 /* ContentView.swift in Sources */,
+				64B66DDE238C68BA00625383 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B66DED238C68C000625383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B66DF6238C68C000625383 /* MettOMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B66DF8238C68C000625383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B66E01238C68C000625383 /* MettOMeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64B66DF3238C68C000625383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B66DD7238C68BA00625383 /* MettOMeter */;
+			targetProxy = 64B66DF2238C68C000625383 /* PBXContainerItemProxy */;
+		};
+		64B66DFE238C68C000625383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B66DD7238C68BA00625383 /* MettOMeter */;
+			targetProxy = 64B66DFD238C68C000625383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64B66DE9238C68C000625383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B66DEA238C68C000625383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64B66E03238C68C000625383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64B66E04238C68C000625383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64B66E06238C68C000625383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MettOMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = QT538E6CTY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MettOMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.rgunti.ios.MettOMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64B66E07238C68C000625383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MettOMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = QT538E6CTY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MettOMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.rgunti.ios.MettOMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64B66E09238C68C000625383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QT538E6CTY;
+				INFOPLIST_FILE = MettOMeterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.rgunti.ios.MettOMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MettOMeter.app/MettOMeter";
+			};
+			name = Debug;
+		};
+		64B66E0A238C68C000625383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QT538E6CTY;
+				INFOPLIST_FILE = MettOMeterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.rgunti.ios.MettOMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MettOMeter.app/MettOMeter";
+			};
+			name = Release;
+		};
+		64B66E0C238C68C000625383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QT538E6CTY;
+				INFOPLIST_FILE = MettOMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.rgunti.ios.MettOMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MettOMeter;
+			};
+			name = Debug;
+		};
+		64B66E0D238C68C000625383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QT538E6CTY;
+				INFOPLIST_FILE = MettOMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.rgunti.ios.MettOMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MettOMeter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64B66DD3238C68BA00625383 /* Build configuration list for PBXProject "MettOMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B66E03238C68C000625383 /* Debug */,
+				64B66E04238C68C000625383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B66E05238C68C000625383 /* Build configuration list for PBXNativeTarget "MettOMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B66E06238C68C000625383 /* Debug */,
+				64B66E07238C68C000625383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B66E08238C68C000625383 /* Build configuration list for PBXNativeTarget "MettOMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B66E09238C68C000625383 /* Debug */,
+				64B66E0A238C68C000625383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B66E0B238C68C000625383 /* Build configuration list for PBXNativeTarget "MettOMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B66E0C238C68C000625383 /* Debug */,
+				64B66E0D238C68C000625383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64B66DDF238C68BA00625383 /* MettOMeter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64B66DE0238C68BA00625383 /* MettOMeter.xcdatamodel */,
+			);
+			currentVersion = 64B66DE0238C68BA00625383 /* MettOMeter.xcdatamodel */;
+			path = MettOMeter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64B66DD0238C68BA00625383 /* Project object */;
+}
