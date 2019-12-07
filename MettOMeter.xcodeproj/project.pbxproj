@@ -16,6 +16,7 @@
 		64B66DEB238C68C000625383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B66DE9238C68C000625383 /* LaunchScreen.storyboard */; };
 		64B66DF6238C68C000625383 /* MettOMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66DF5238C68C000625383 /* MettOMeterTests.swift */; };
 		64B66E01238C68C000625383 /* MettOMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66E00238C68C000625383 /* MettOMeterUITests.swift */; };
+		64B66E0F238C79F300625383 /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B66E0E238C79F300625383 /* LocationTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		64B66DFC238C68C000625383 /* MettOMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MettOMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B66E00238C68C000625383 /* MettOMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MettOMeterUITests.swift; sourceTree = "<group>"; };
 		64B66E02238C68C000625383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B66E0E238C79F300625383 /* LocationTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		64B66DDA238C68BA00625383 /* MettOMeter */ = {
 			isa = PBXGroup;
 			children = (
+				64B66E0E238C79F300625383 /* LocationTracker.swift */,
 				64B66DDB238C68BA00625383 /* AppDelegate.swift */,
 				64B66DDD238C68BA00625383 /* SceneDelegate.swift */,
 				64B66DE2238C68BA00625383 /* ContentView.swift */,
@@ -274,6 +277,7 @@
 				64B66DDC238C68BA00625383 /* AppDelegate.swift in Sources */,
 				64B66DE3238C68BA00625383 /* ContentView.swift in Sources */,
 				64B66DDE238C68BA00625383 /* SceneDelegate.swift in Sources */,
+				64B66E0F238C79F300625383 /* LocationTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"MettOMeter/Preview Content\"";
 				DEVELOPMENT_TEAM = QT538E6CTY;
 				ENABLE_PREVIEWS = YES;
@@ -459,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"MettOMeter/Preview Content\"";
 				DEVELOPMENT_TEAM = QT538E6CTY;
 				ENABLE_PREVIEWS = YES;
